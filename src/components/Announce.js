@@ -1,6 +1,7 @@
+import { css } from '@emotion/react'
 import { Close } from '@mui/icons-material'
 import {React, useState} from 'react'
-
+import './announe.css'
 function Announce() {
     const[announceStyle, setAnnounceStyle] = useState('bg-[#32B94D] font-bold text-white flex item-center justify-center')
     const handleClose = ()=>{
@@ -9,8 +10,8 @@ function Announce() {
   return (
 
     <div className={announceStyle}>
-        <h1> 20% Off in this product only </h1>
-        <Close className='cursor-pointer bg-red-600 ml-1 rounded-full' onClick={handleClose}/>
+        <h1> 20% Off in this product only</h1>
+        <Close className='close cursor-pointer text-red ml-1 rounded-full' onClick={handleClose}/>
     </div>
   )
 }

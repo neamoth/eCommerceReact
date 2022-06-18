@@ -1,2 +1,9 @@
 {
+    "emmet.includeLanguages": {
+        "html": "true"
+    },
+    "emmet.preferences": {
+    "files.associations":{"html":"html"},
+    "emmet.triggerExandsionOnTab": true
+    }
 }

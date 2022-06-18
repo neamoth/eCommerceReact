@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+.logo {
+  font-size: 1.6em;
+  color: rgb(32, 182, 202);
+  font-family: 'Fascinate' ;
+}
+.list{
+  display: flex;
+}
+ui li{
+  list-style: none;
+  display: flex;
+  color: gray;
+  font-weight: bold;
+}
+ui li:hover{
+  color: red;
+}
+
