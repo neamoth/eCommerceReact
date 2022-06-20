@@ -23,7 +23,7 @@ function Navbar() {
         </div>
         {/* {Logo} */}
         <div className='logo flex-1 text-center'>
-          Sharpshooter
+          QShop
         </div>
         {/* {left div} */}
         <div className='right flex flex-1 items-center justify-end'>
