@@ -1,0 +1,10 @@
+/* main div */
+.parentDiv{
+    height: 33.75em;
+    background: white;
+    display: flex;
+}
+/* arrow  */
+.arrowStyle{
+    background: rgb(180, 180, 180);
+}
