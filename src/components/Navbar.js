@@ -4,21 +4,21 @@ import React from 'react'
 import './navbar.css'
 
 function Navbar() {
-  const style = "cursor-pointer text-[14px] ml-[25px] mr-[20px]"
+  const style = "cursor-pointer text-[0.875em] ml-[1.5625em] mr-[1.25em]"
   return (
-    <div className='navbar h-[60px] shadow-md relative z-10'>
-      <div className='wapper flex justify-between items-center pl-[20px] pt-[10px] pb-[10px]'>
+    <div className='navbar h-[3.75em] shadow-md relative z-10'>
+      <div className='wapper flex justify-between items-center pl-[1.25em] pt-[0.625em] pb-[0.625em]'>
         {/* left div */}
         <div className='left flex flex-1 items-center'>
 
           {/* {language div} */}
-          <div className='language cursor-pointer text-[16px]'>
+          <div className='language cursor-pointer text-[1em]'>
             En
           </div>
           {/* {search div} */}
-          <div className='searchInput flex border-[2px] border-solid border-lightgrey rounded-md items-center ml-1 p-2 focus-within:border-[#32B94D] transition-all'>
+          <div className='searchInput flex border-[0.125em] border-solid border-lightgrey rounded-md items-center ml-1 p-2 focus-within:border-[#32B94D] transition-all'>
             <input className="input outline-none text-gray-800" type='text' />
-            <Search className='' style={{ textSize: '16px' }} />
+            <Search className='' style={{ textSize: '1em' }} />
           </div>
         </div>
         {/* {Logo} */}

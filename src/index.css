@@ -1,7 +1,13 @@
 @tailwind base;
 @tailwind components;
 .btn{
-    @apply text-white bg-[#32B94D] rounded-md shadow-md p-3 hover:scale-[1.1] ease-in duration-100 cursor-pointer
+    @apply rounded-md shadow-md p-3 hover:scale-[1.1] ease-in duration-100 cursor-pointer
     hover:bg-[#20b6ca]
 }
 @tailwind utilities;
+
+.btn{
+    color: white;
+    background: #32B94D;
+    font-size: large;
+}
